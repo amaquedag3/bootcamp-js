@@ -3,7 +3,8 @@
 const human1 = {
     name : "Alberto", 
     lastname : "Maqueda", 
-    age : 24}
+    age : 24
+}
 
 
 console.log(human1);
@@ -13,6 +14,15 @@ console.log(human1['id']);
 //Mutacion de objetos => Mala practica
 delete human1.id ;
 
+//PRIMITIVOS
+/*
+    - string
+    - number
+    - bigint
+    - boolean
+    - undefined
+    - symbol
+*/
 
 //Asignacion de valores por valor y referencia
 let nombre = "Guillermo";
@@ -47,7 +57,14 @@ const sayBye = function(name){// Parametros de la funcion
 }
 sayBye('Alberto');//argumentos
 
+    //OPERADORES LOGICOS EN JS
+/*
+    - OR: RETORNA LE PRIMER VALOR VERDADERO
+    - AND: RETORNA EL PRIMER VALOR FALSO
+    - NOT: RETORNA CONTRARIO AL BOOLEANO
+*/
 
+""
 
 //No usar var
 let group = []
